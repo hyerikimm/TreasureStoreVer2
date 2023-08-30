@@ -66,7 +66,7 @@ public class ChatController {
 									 @RequestParam(value = "currentPage", defaultValue = "1") int currentPage) {
 	      session = request.getSession();
 	      
-	      
+	      //깃 연결 테스트
 	      if(session.getAttribute("loginUser")== null) {
 	    	  
 	         session.setAttribute("errorMsg", "로그인 후 이용 가능합니다.");
